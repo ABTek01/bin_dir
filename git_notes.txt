@@ -1,0 +1,44 @@
+#git notes
+
+git project 3 parts;
+
+1. working directory; where all the work is done.
+creating, editing, deleting and organizing files.
+
+2. staging area; where you'll list changes you make
+to the working directory, files are ready for commit.
+
+3. repository; where git permanently stores
+those changes as different versions of the project.
+
+
+*git workflow commands
+
+- git init; initializes a git project and work flow.
+
+- git status;
+checks status of project code
+of untracked files, that have no
+changes added to them.
+
+- git add [ filename ];
+add a file to the staging area,
+'filename' refers to the name of the
+file you are editing.
+
+- git diff [ filename ];
+check the differences between the working
+directory and the staging area.
+
+- git commit -m ['message'];
+A commit permanently stores changes from 
+the staging area inside the repository. last step
+in our Git workflow.
+
+- git log;
+helps user refer back to 
+previous commits within the workflow
+& repository.
+
+- 
+
